@@ -1,6 +1,6 @@
 // run with:
-// node --experimental-modules example.mjs
-// node -r esm example.mjs
+// node example.js
+// node -r esm example.js
 const { foo, qux } = require('foo-qux')
 
 console.log(foo, qux)
